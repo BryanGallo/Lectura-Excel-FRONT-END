@@ -1,8 +1,5 @@
-# React + Vite
+Proyecto de lectura de archivos excel bajo la estructura indicada en Ventas.jsx línea 64.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este proyecto permite obtener los valores del archivo excel correspondientes a un local en base a su número de RUC, lo valores son mensuales.
+Calcula valores en base a los parametros indicados al momento de crear un local solicitado en Formulario.jsx
+Permite observar los valores cargados y exportar a un archivo excel con los valores calculados.
